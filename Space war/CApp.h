@@ -1,9 +1,10 @@
 #ifndef _CAPP_H_
 #define _CAPP_H_
 
+#include "CEvent.h"
 #include <SDL.h>
 
-class CApp {
+class CApp : public CEvent {
 
 public:
 private:
@@ -20,6 +21,8 @@ public:
 	bool OnInit();
 
 	void OnEvent(SDL_Event* Event);
+
+	void OnExit();
 
 	void OnLoop();
 
