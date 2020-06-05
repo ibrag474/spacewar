@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1588540219 source:c:\users\ibragim\documents\objektinis programavimas\lab2\game\main.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<chrono>
+
+1589190613 source:c:\users\ibragim\documents\objektinis programavimas\game\enemy.cpp
+	"enemy.h"
+
+1589190535 c:\users\ibragim\documents\objektinis programavimas\game\enemy.h
+	"object.h"
+
+1589224137 source:c:\users\ibragim\documents\objektinis programavimas\game\main.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<chrono>
+	"enemy.h"
+	"player.h"
+	"game.h"
+	<vector>
+	<fstream>
+
+1588598346 c:\users\ibragim\documents\objektinis programavimas\game\object.h
+
+1588590375 source:c:\users\ibragim\documents\objektinis programavimas\game\object.cpp
+	"object.h"
+
+1589223773 source:c:\users\ibragim\documents\objektinis programavimas\game\player.cpp
+	"player.h"
+
+1589223771 c:\users\ibragim\documents\objektinis programavimas\game\player.h
+	"object.h"
+
+1589223526 source:c:\users\ibragim\documents\objektinis programavimas\game\game.cpp
+	"game.h"
+
+1589223430 c:\users\ibragim\documents\objektinis programavimas\game\game.h
+	"enemy.h"
+	<iostream>
+	<windows.h>
+	<vector>
+	<fstream>
+	<string>
+
